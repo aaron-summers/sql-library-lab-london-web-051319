@@ -1,3 +1,22 @@
+--
+-- INSERT INTO series (id, title, author_id, subgenre_id) VALUES (1, "Avengers", 1, 1), (2, "Captain America", 1, 2);
+--
+-- INSERT INTO subgenres (id, name) VALUES (1, "Sci-Fi"), (2, "Political Action");
+--
+-- INSERT INTO authors (id, name) VALUES (1, "Markus and McFeely"), (2, "Joss Whedon");
+--
+-- INSERT INTO books (id, title, year, series_id) VALUES (1, "Avengers Assemble", 2012, 1), (2, "Avengers: Age of Ultron", 2015, 1), (3, "Avengers Infinity War", 2018, 1), (4, "Avengers Endgame", 2019, 1), (5, "Captain America: The First Avenger", 2011, 1),
+-- (6, "Captain America: The Winter Soldier", 2014, 1);
+--
+-- INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (1, "Steve Rogers", "I can do this all day", "homo sapien", 1, 2),
+-- (2, "Tony Stark", "Blueberries?", "homo sapien", 1, 1), (3, "Natasha Romanoff", "Just like Budapest", 1, 1), (4, "Thor", "Strongest Avenger", 1, 1), (5, "Clint Barton", "The city is flying and I have a bow and arrow", 1, 1),
+-- (6, "Bruce Banner", "Hulk Smash", 1, 1), (7,"Peter Parker", "I stole his shield", 1, 1), (8, "Nicholas J. Fury", "B**ch please, you've been to space", 1, 1);
+--
+--
+-- INSERT INTO character_books (id, book_id, character_id) VALUES (1, 1, 2), (2, 1, 1), (3, 1, 3), (4, 1, 4);, (5, 1, 5), (6, 1, 6), (7, 3, 7), (8, 1, 8),
+-- (9, 5, 1), (10, 6, 1), (11, 3, 2), (12, 3, 1), (13, 3, 4), (14, 6, 1), (15, 6, 3), (16, 4, 2);
+
+
 INSERT INTO series (id, title, author_id, subgenre_id) VALUES (1, "A Song of Ice and Fire", 1, 1), (2, "Second Series", 2, 2);
 
 INSERT INTO subgenres (id, name) VALUES (1, "medieval"), (2, "space opera");
